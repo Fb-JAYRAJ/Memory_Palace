@@ -1,0 +1,25 @@
+/* ===== APP BACKGROUND (Light) ===== */
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #f3d9ff 0%,
+    #f5cfee 20%,
+    #f7d8ef 45%,
+    #f1d7e9 65%,
+    #e8d5e5 85%,
+    #e6d8ec 100%
+  );
+}
+
+/* ===== DARK THEME (kept for future) ===== */
+.dark .app-bg {
+  background: linear-gradient(180deg, #050816, #0a0f26, #0f172a);
+}
+
+/* ===== DEFAULT PAGE WRAPPER ===== */
+.page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 18px 14px;
+}
